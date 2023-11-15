@@ -1,7 +1,7 @@
 body {
-    background-color: #674829;
-    color: #f6f4dd;
-    font-family: Helvetica;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica';
 }
 
 .main {
@@ -10,37 +10,20 @@ body {
 }
 
 button {
-    background-color: #674829;
-    color: #f6f4dd;
+    margin-top: 5vh;
+    background-color: #000000;
+    color: #ffffff;
     width: 50%;
-    height: 10vh;
-
+    height: 9vh;
     border-style: solid;
-    border-color: #f6f4dd;
+    border-color: #ffffff;
     border-width: 3px;
     border-radius: 15px;
-
-    font-family: Helvetica;
-
     transition: background-color 0.5s, color 0.5s, width 1s;
 }
 
 button:hover {
     background-color: #ffffff;
-    color: #674829;
-
+    color: #000000;
     width: 75%;
-}
-
-footer {
-    text-align: center;
-    position: fixed;
-
-    padding: 20px;
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-
-    opacity: 50%;
 }
